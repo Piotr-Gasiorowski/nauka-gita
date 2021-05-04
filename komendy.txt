@@ -1,0 +1,36 @@
+Asus@DESKTOP-N3T6JE3 MINGW64 ~/Dropbox/Mój komputer (DESKTOP-N3T6JE3)/Desktop/Kodilla/Moje projekty/Projekt 1/nauka-gita/nauka-gita (master)
+$ npx html-validate index.html
+Validator crashed when parsing "index.html"
+Caught exception:
+  ConfigError: Failed to read configuration from "html-validate: zalecane"
+      at new UserError (C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\error\user-error.js:5:1)
+      at new ConfigError (C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\config\error.js:5:1)
+      at loadFromFile (C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\config\config.js:54:15)
+      at Function.fromFile (C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\config\config.js:127:28)
+      at Config.extendConfig (C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\config\config.js:191:27)
+      at new Config (C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\config\config.js:91:32)
+      at Function.fromObject (C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\config\config.js:115:16)
+      at Function.fromFile (C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\config\config.js:128:23)
+      at ConfigLoader.fromTarget (C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\config\config-loader.js:58:48)
+      at HtmlValidate.getConfigFor (C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\htmlvalidate.js:273:42)
+  Caused by: Error: Cannot find module 'html-validate: zalecane'
+  Require stack:
+  - C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\utils\require-uncached.js
+  - C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\utils\index.js
+  - C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\meta\table.js
+  - C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\meta\index.js
+  - C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\config\config.js
+  - C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\config\index.js
+  - C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\reporter.js
+  - C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\cli\html-validate.js
+  - C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\bin\html-validate.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+      at Function.resolve (internal/modules/cjs/helpers.js:94:19)
+      at Object.requireUncached (C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\utils\require-uncached.js:8:30)
+      at loadFromFile (C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\config\config.js:51:24)
+      at Function.fromFile (C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\config\config.js:127:28)
+      at Config.extendConfig (C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\config\config.js:191:27)
+      at new Config (C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\config\config.js:91:32)
+      at Function.fromObject (C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\config\config.js:115:16)
+      at Function.fromFile (C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\config\config.js:128:23)
+      at ConfigLoader.fromTarget (C:\Users\Asus\Dropbox\Mój komputer (DESKTOP-N3T6JE3)\Desktop\Kodilla\Moje projekty\Projekt 1\nauka-gita\nauka-gita\node_modules\html-validate\dist\config\config-loader.js:58:48)
