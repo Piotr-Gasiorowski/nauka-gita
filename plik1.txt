@@ -1,0 +1,30 @@
+/*Global*/
+$color-main: #ff5e57;
+$color-light: #fff;
+$font-text: 'Josefin Sans', sans-serif;
+$font-header: 'Open Sans', sans-serif;
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+body {
+    margin: 0;
+    text-align: left;
+    background: #fff;
+    color: #3d3d3d;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: $font-text;
+}
+p {
+    width: 11%;
+    padding: 12px 0;
+    font-size: 14px;
+	margin: 0 0 0 10px;
+}
+.Artist {
+	padding: 0;
+	text-align: left;
+	font-size: 14px;
+	margin: 0 0 20px 0
+	line-height: 1;
+}
