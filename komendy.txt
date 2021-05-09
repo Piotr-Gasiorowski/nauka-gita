@@ -1,4 +1,27 @@
 Asus@DESKTOP-N3T6JE3 MINGW64 ~/Dropbox/Mój komputer (DESKTOP-N3T6JE3)/Desktop/Kodilla/Moje projekty/Projekt 1/nauka-gita/nauka-gita (master)
+$ node_modules/.bin/browser-sync start --server --files "css/*.css" "*.html"
+[Browsersync] Access URLs:
+ -------------------------------------
+       Local: http://localhost:3000
+    External: http://192.168.1.19:3000
+ -------------------------------------
+          UI: http://localhost:3001
+ UI External: http://localhost:3001
+ -------------------------------------
+[Browsersync] Serving files from: ./
+[Browsersync] Watching files...
+
+Asus@DESKTOP-N3T6JE3 MINGW64 ~/Dropbox/Mój komputer (DESKTOP-N3T6JE3)/Desktop/Kodilla/Moje projekty/Projekt 1/nauka-gita/nauka-gita (master)
+$ npm install -g --save-dev html-validate
+
+added 98 packages, and audited 99 packages in 11s
+
+39 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Asus@DESKTOP-N3T6JE3 MINGW64 ~/Dropbox/Mój komputer (DESKTOP-N3T6JE3)/Desktop/Kodilla/Moje projekty/Projekt 1/nauka-gita/nauka-gita (master)
 $ html-validate index.html
 
 index.html
@@ -15,4 +38,3 @@ More information:
 
 
 Asus@DESKTOP-N3T6JE3 MINGW64 ~/Dropbox/Mój komputer (DESKTOP-N3T6JE3)/Desktop/Kodilla/Moje projekty/Projekt 1/nauka-gita/nauka-gita (master)
-$

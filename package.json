@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Piotr-Gasiorowski/nauka-gita/issues"
   },
-  "homepage": "https://github.com/Piotr-Gasiorowski/nauka-gita#readme"
+  "homepage": "https://github.com/Piotr-Gasiorowski/nauka-gita#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14"
+  }
 }
